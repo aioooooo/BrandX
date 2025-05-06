@@ -10,13 +10,25 @@ namespace BrandX
     {
         public class Person
         {
+            public string FirstName { get; set; }
+            public string LastName { get; set; }
+            public DateTime DateOfBirth { get; set; }
+            public string Address { get; set; }
+            public string PhoneNumber { get; set; }
+            public string Email { get; set; }
+            
+            public Person(string firstName, string lastName, DateTime dateOfBirth, string address, string phoneNumber, string email)
+            {
+                FirstName = firstName;
+                LastName = lastName;
+                DateOfBirth = dateOfBirth;
+                Address = address;
+                PhoneNumber = phoneNumber;
+                Email = email;
+            }
 
         }
 
-        public Person()
-        {
-
-        }
 
         public string GetFullName()
         {
@@ -38,7 +50,7 @@ namespace BrandX
         }
         static void Main(string[] args)
         {
-
+            
         }
     }
 }
