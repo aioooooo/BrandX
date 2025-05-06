@@ -8,6 +8,34 @@ namespace BrandX
 {
     internal class Program
     {
+        public class Person
+        {
+
+        }
+
+        public Person()
+        {
+
+        }
+
+        public string GetFullName()
+        {
+
+        }
+
+        public void DisplayInfo()
+        {
+
+        }
+
+        public bool IsAdult()
+        {
+
+        }
+        public void HaveBirthday()
+        {
+
+        }
         static void Main(string[] args)
         {
 
